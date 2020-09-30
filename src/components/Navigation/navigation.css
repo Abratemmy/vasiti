@@ -1,0 +1,69 @@
+.navigation{
+    padding-top: 15px;
+    font-size: 13px;
+    letter-spacing: 0.05em;
+}
+.first-navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.first-navbar .first-nav-link ul{
+    display: flex;
+}
+.first-navbar .first-nav-link ul li{
+    padding-left: 30px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 15px;
+    
+}
+.second-navbar ul{
+    display: flex;
+    position: relative;
+    top:-20px;
+}
+.navbar-navlink{
+    color:var(--mainDark);
+    font-weight: 600;
+}
+.navbar-navlink:hover{
+    text-decoration: none;
+    color: var(--primaryColor);
+}
+.second-navbar ul li{
+    padding: 5px 30px 0px 40px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+.signuplink{
+    background-color: var(--primaryColor);
+    padding: 10px;
+    margin-left: 14px;
+}
+.nav-signup{
+    color: var(--mainWhite);
+    text-transform: uppercase;
+    font-size: 13px;
+    padding-top: 5px!important;
+    font-weight: 600;
+    transition: 0.4s all ease;
+}
+.nav-signup:hover{
+    text-decoration: none;
+    color: var(--mainWhite);
+}
+.nav-hr{
+    position: relative;
+    top: -20px;
+}
+@media screen and (max-width: 900px){
+    .first-nav-link{
+        display: none;
+    }
+    .second-navbar{
+        display: none;
+    }
+    .nav-hr{
+        display:none;
+    }
+}

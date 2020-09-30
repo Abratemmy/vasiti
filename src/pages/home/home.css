@@ -1,0 +1,83 @@
+.homepage{
+    overflow: hidden;
+    font-family:'Inter', sans-serif;
+}
+.homepagefirst-col{
+    padding-bottom: 80px;
+}
+.homepage h1{
+    font-size: 48px;
+    font-weight: bold;
+    color:var(--mainBlack);
+    padding-top: 40px;
+    max-width: 700px;
+}
+.homepage h6{
+    max-width: 500px;
+    font-size: 18px;
+    line-height: 31px;
+    letter-spacing: 2%;
+    color:#494949;
+    font-weight: 400;
+}
+.blackpeoplerow{
+    padding: 110px 0px 0px 0px;
+    color: white;
+}
+.blackpeoplerow h3{
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 1px;
+    font-size: 32px;
+    text-transform: capitalize;
+}
+.blackpeoplerow .customers{
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    width: 120px;
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.blackpeoplerow h6{
+    padding-top: 20px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+}
+.blackpeoplerow .shareyourstory{
+    padding-top: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.blackpeoplerow .share-link{
+    color: white;
+    transition: 0.4s all ease;
+}
+.blackpeoplerow .share-link:hover{
+    text-decoration: none;
+    color:var(--primaryColor);
+}
+.thirdpartrow{
+    padding: 50px 0px 0px 0px;
+}
+.thirdpartrow .title{
+    font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+letter-spacing: 0.02em;
+color: #474747;
+}
+.thirdpartrow .text{
+    font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.02em;
+color: #474747;
+}

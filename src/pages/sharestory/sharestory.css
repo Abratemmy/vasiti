@@ -1,0 +1,30 @@
+.sharestory .shareform .label{
+    display:block;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    color:#676767;
+
+}
+.sharestory .shareform{
+    padding: 20px 0px;
+}
+.sharestory .shareform .inputfield{
+    width: 100%;
+    height: 40px;
+    background: #FEFEFE;
+    border: 1px solid #EAEAEA;
+box-sizing: border-box;
+border-radius: 8px;
+    /* border-radius: 1px; */
+}
+.sharestory .shareform .textarea{
+    width: 100%;
+    background: #FEFEFE;
+    border: 1px solid #EAEAEA;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
